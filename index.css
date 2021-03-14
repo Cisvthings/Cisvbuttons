@@ -15,7 +15,7 @@ body {
 }
 
 section {
-  margin-bottom: 4rem;
+  margin-bottom: 8rem;
 }
 
 h2 {
@@ -45,64 +45,39 @@ li {
   transition: all 700ms ease-in-out;
 }
 
-ul li:hover,
-ul li:focus {
+ul li:hover{
   outline: none;
   transform: scale(1.1);
+    background: #fff;
+  color: black;
 }
 
-/* Monochrome Style */
-.bonw {
-  border: 2px solid #000;
+button{
+  font-family: 'Ubuntu', sans-serif;
+  width: 170px;
+  height: 40px;
+  line-height: 1;
+  font-size: 18px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  border: 3px solid #8C82FC;
+  background: #fff;
+  color: #8C82FC;
+  border-radius: 40px;
+  cursor: pointer;
+  overflow: hidden;
+  transition: all .35s;
 }
 
-.wonb {
-  background: #000;
+button:hover{
+  background: #8C82FC;
   color: #fff;
 }
 
-.shadow {
-  box-shadow: 3px 4px 3px gray;
-}
-
-/* Grayzone Style */
-.grayheader {
-  color: #47506e;
-}
-
-.grayzone li {
-  background: #d7d8db;
-}
-
-.grayzone .gray {
-  color: #444e6e;
-}
-
-.grayzone .white {
-  color: white;
-}
-
-/* Singlecolor Style */
-.singleheader {
-  color: #575ff2;
-}
-
-.singlecolor li {
-  border: 3px solid #6b8df2;
-  outline: none;
-}
-
-.blue1 {
-  background: hsl(237deg, 85.6%, 64.5%);
-}
-
-.blue2 {
-  background: hsl(237deg, 85.6%, 74.5%);
-}
-
-.blue3 {
-  background: #0078bd;
-  color: white;
+button span{
+  opacity: 1;
+  visibility: visible;
+  transition: all .35s;
 }
 
 /* Colorfest Style */
@@ -121,18 +96,31 @@ ul li:focus {
   color: transparent;
 }
 
-.ronp {
+.red {
   background: #590202;
-  color: #f28d95;
+  color: white;
+  border: 2px solid #590202;
 }
 
-.gong {
+.green {
   background: #05f29b;
-  color: #025940;
+  color: black;
   border: 2px solid #05f2af;
 }
 
-.vony {
+.yellow {
   background: #f2e205;
   color: #131ff2;
+  border: 2px solid #f2e205 ;
+}
+
+.blue {
+  background: #0078bd;
+  color: white;
+  border: 2px solid #0078bd;
+}
+
+img {
+  width: 100%;
+  height: auto;
 }

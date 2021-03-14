@@ -97,20 +97,20 @@ button span{
 }
 
 .red {
-  background: #590202;
+  background: red;
   color: white;
-  border: 2px solid #590202;
+  border: 2px solid red;
 }
 
 .green {
-  background: #05f29b;
-  color: black;
-  border: 2px solid #05f2af;
+  background: green;
+  color: white;
+  border: 2px solid green;
 }
 
 .yellow {
   background: #f2e205;
-  color: #131ff2;
+  color: white;
   border: 2px solid #f2e205 ;
 }
 

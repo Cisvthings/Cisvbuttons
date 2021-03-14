@@ -21,6 +21,7 @@ section {
 h2 {
   font-size: 8vmin;
   margin: 0;
+  margin-bottom: 50px;
 }
 
 a {
@@ -355,8 +356,8 @@ h1, h2, h3, h4, h5, h6 {
 
 .new_footer_top .footer_bg .footer_bg_two {
     background: url("image/dancinghulla.gif") no-repeat center center;
-    width: 88px;
-    height: 100px;
+    width: 200px;
+    height: 400px;
   background-size:100%;
     bottom: 0;
     left: 38%;

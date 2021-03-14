@@ -1,23 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CISV ROOMS   </title>
-    <link rel="stylesheet" href="index.css">
-    <link rel="icon" href="https://pt.cisv.org/wp-content/uploads/sites/31/2017/03/cropped-favicon-1-192x192.png" sizes="192x192" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CISV ROOMS   </title>
+  <link rel="stylesheet" href="index.css">
+  <link rel="icon" href="https://pt.cisv.org/wp-content/uploads/sites/31/2017/03/cropped-favicon-1-192x192.png" sizes="192x192" />
 </head>
 <body>
+  <section>
+    <h2>CISV ROOMS</h2>
     <section>
-        <h2>CISV ROOMS</h2>
-      <section>
-        <ul class="colorfest">
+      <ul class="colorfest">
         <a onclick="window.open('http://www.cisv.org', '_blank')" ><li class="ronp" >Rojo </li></a>
         <a href="http://www.cisv.org" target="_blank" ><li class="gong">Verde</li></a>
         <a href="http://www.cisv.org" target="_blank" ><li class="vony">Amarillo</li></a>
-		<a href="http://www.cisv.org" target="_blank" ><li class="blue3">Azul</li></a>
-        </ul>
-      </section>
-</body>
-</html>
+        <a href="http://www.cisv.org" target="_blank" ><li class="blue3">Azul</li></a>
+      </ul>
+    </section>
+
+    <section>
+      <form name="dogPictures" method="POST" data-netlify="true">
+        <p>
+          <label>Dog’s Name: <input type="text" name="name" /></label>   
+        </p>
+        <p>
+          <label>Dog’s Picture: <input type="file" name="picture" /></label>
+        </p>
+        <p>
+          <button type="submit">Send</button>
+        </p>
+      </form>
+    </section>
+
+    <section>
+      <form name="contact" method="POST" data-netlify="true">
+        <p>
+          <label>Your Name: <input type="text" name="name" /></label>   
+        </p>
+        <p>
+          <label>Your Email: <input type="email" name="email" /></label>
+        </p>
+        <p>
+          <label>Your Role: <select name="role[]" multiple>
+            <option value="leader">Leader</option>
+            <option value="follower">Follower</option>
+          </select></label>
+        </p>
+        <p>
+          <label>Message: <textarea name="message"></textarea></label>
+        </p>
+        <p>
+          <button type="submit">Send</button>
+        </p>
+      </form>
+    </section>
+  </body>
+  </html>
 

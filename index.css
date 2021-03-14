@@ -170,7 +170,7 @@ img {
   -o-transition: all 1s ease;
   -ms-transition: all 1s ease;
   transition: all 1s ease;
-  height: 10em;
+  height: 20em;
 }
 .footer #container{
   margin-top:5px;
